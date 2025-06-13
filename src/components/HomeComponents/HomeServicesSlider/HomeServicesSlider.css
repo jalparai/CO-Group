@@ -1,0 +1,35 @@
+.marquee-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.marquee-wrapper::before,
+.marquee-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.marquee-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), transparent 70%);
+}
+
+.marquee-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), transparent 70%);
+}
+
+.service-button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #7c7c7c;
+}
+
+.service-button:hover {
+  background-color: #0587ff;
+  color: white;
+}

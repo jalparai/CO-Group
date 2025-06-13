@@ -1,0 +1,17 @@
+.circular-border {
+    width: 70%;
+    height: 78%;
+    border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+}
+
+@media (max-width: 767px) { /* Adjust for small screens */
+    .circular-border {
+        width: 80%;
+        height: 80%;
+        border-radius: 100%;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        position: absolute;
+    }
+  }

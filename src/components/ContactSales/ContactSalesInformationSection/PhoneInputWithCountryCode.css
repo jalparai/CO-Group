@@ -1,0 +1,30 @@
+.custom-phone-input .PhoneInputInput {
+  height: 80px !important;
+  padding: 0 22px !important;
+  font-size: 27px !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: #898989 !important;
+  background-color: black !important;
+  border-radius: 10px !important;
+  border: 1px solid #343434 !important;
+}
+
+.custom-phone-input .PhoneInputCountry {
+  background-color: black !important;
+  border-radius: 10px 0 0 10px !important;
+  border: 1px solid #343434 !important;
+  height: 80px !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-left: 10px !important;
+}
+
+.custom-phone-input .PhoneInputCountrySelect {
+  background-color: black !important;
+  color: white !important;
+}
+
+.custom-phone-input .PhoneInputCountryIcon {
+  width: 30px !important;
+  height: 30px !important;
+}

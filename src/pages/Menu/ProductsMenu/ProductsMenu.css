@@ -1,0 +1,5 @@
+/* Assuming you're using Tailwind CSS, the following styles can be added in your global styles file or in a <style> tag */
+
+.group:hover .bg-gradient-to-r {
+  transform: translateX(-100%);
+}

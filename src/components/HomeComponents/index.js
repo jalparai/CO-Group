@@ -1,0 +1,10 @@
+export { default as HomeHero } from "./HomeHero/HomeHero";
+export { default as CompaniesHomeSlide } from "./CompaniesHomeSlide/CompaniesHomeSlide";
+export { default as HomeDescreptionHero1 } from "./HomeDescreptionHero_1/HomeDescreptionHero_1";
+export { default as ProfitsHomeHero } from "./ProfitsHomeHero/ProfitsHomeHero";
+export { default as HomeDescreptionHero2 } from "./HomeDescreptionHero_2/HomeDescreptionHero_2";
+export { default as HomeDescreptionHero3 } from "./HomeDescreptionHero_3/HomeDescreptionHero_3";
+export { default as HomeServicesSlider } from "./HomeServicesSlider/HomeServicesSlider";
+export { default as HomeCardes } from "./HomeCardes/HomeCardes";
+export { default as AnswersHomeHero } from "./AnswersHomeHero/AnswersHomeHero";
+export { default as AnswersHomeHero2 } from "./AnswersHomeHero_2/AnswersHomeHero_2";

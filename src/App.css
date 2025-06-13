@@ -1,0 +1,25 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1;
+  position: relative;
+  z-index: 1; /* Ensure content is above background */
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.fixed.bottom-8.right-8.w-16.h-16.bg-blue-500.rounded-full.shadow-lg.flex.items-center.justify-center.cursor-pointer.z-50 {
+  display: none;
+}

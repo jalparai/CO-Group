@@ -1,0 +1,10 @@
+.swiper-slide {
+  opacity: 0.5; /* Default opacity for all slides */
+  transition: opacity 0.3s ease; /* Smooth transition when opacity changes */
+}
+
+.swiper-slide-active,
+.swiper-slide-prev,
+.swiper-slide-next {
+  opacity: 1; /* Full opacity for the active and nearby slides */
+}

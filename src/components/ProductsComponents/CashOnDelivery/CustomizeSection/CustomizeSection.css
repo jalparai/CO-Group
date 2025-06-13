@@ -1,0 +1,33 @@
+.button-gradient-border {
+  position: relative;
+  z-index: 1; /* Ensure the button content is above the border */
+  transition: background-color 0.1s, border-color 0.1s;
+}
+
+.button-gradient-border::before {
+  content: "";
+  position: absolute;
+  top: 100;
+  left: 100;
+  border-radius: inherit; /* Inherit the border-radius from the button */
+  padding: 1px; /* Adjust the padding to control the thickness of the border */
+  background: linear-gradient(
+    180deg,
+    rgba(5, 135, 255, 0.5) 30%,
+    rgba(3, 81, 153, 0.1) 95%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(129, 187, 255, 0.5) 30%,
+    rgba(36, 118, 215, 0.1) 95%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: exclude; /* Makes the content area transparent */
+  z-index: -1; /* Place it below the button content */
+}
+
+.grientBtn-shiping{
+  border: 1px solid #0587FF;
+}
